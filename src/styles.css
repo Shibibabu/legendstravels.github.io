@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+.Hotel{
+    margin-left:100px;
+    margin-top:50px;
+    float: left;
+    width:350px;
+
+}
+  
+.Flight{
+    margin-left:40px;
+    margin-top:50px;
+    float: left;
+    height: 250px;
+    width: 300px;
+  
+    margin-left: 100px
+}
+.Ticket{
+    margin-right:50px;
+    margin-top:50px;
+    height: 250px;
+    width: 300px;
+    float: right;
+}
+.Cruises{
+    margin-left:30px;
+    margin-top:50px;
+    float: left;
+    width:350px;}
+.Rail{ 
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin-left:40px;
+    margin-top:50px;}
+.Amazing{
+    margin-right:30px;
+    margin-top:50px;
+    height: 250px;
+    width: 300px;
+    float: right;}
+
+
+.is_even{
+    margin-top: 90px;
+    margin-left: 180px;
+    background: lightblue;
+}
+.is_odd{
+    margin-top: 90px;
+    margin-left: 180px;
+    background: lightblue;
+}

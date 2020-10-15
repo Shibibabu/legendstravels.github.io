@@ -1,0 +1,105 @@
+.service{
+    background: white none repeat scroll 0;
+    padding: 0 15px;
+    transition: all 0.4s ease 0s;
+    color: #727272;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+height: 250px;
+}   
+.service .icons{
+
+color:white;
+margin-top: 10px;
+font-size: 29px;
+height: 80px;
+line-height: 80px;
+text-align: center;
+top: 0;
+transition: all 0.3s ease 0s;
+box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+background-color:#f9461d;;
+  border-radius: 50%;
+  border: 0px solid grey;
+  padding: 3px;
+
+width: 80px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.service h4{
+    letter-spacing: 0px;
+margin-top: 0px;
+font-family: 'Open Sans', sans-serif;
+color: #333;
+font-size: 18px;
+margin-bottom: 10px;
+text-transform: capitalize;
+font-weight: 600;
+text-align:center;
+}
+.service p{
+    color: #727272;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+
+#card1{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    border-radius: 4px;
+}
+
+#card2{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+}
+.row{
+    justify-content: space-between;
+}
+.Hotel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin-top:50px;
+    margin-left: 70px;
+}
+  
+.Flight{
+    
+    margin-top:50px;
+    float: left;
+    height: 300px;
+    margin-left: 230px;
+  
+    
+}
+.Ticket{
+    margin-right:70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin-top: 50px;
+}
+.Cruises{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin-left: 70px;}
+.Rail{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin-left: 230px;
+}
+.Amazing{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    margin-right:70px;
+    margin-top: 50px;}

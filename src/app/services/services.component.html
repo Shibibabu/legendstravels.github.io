@@ -1,0 +1,91 @@
+<section class="service">
+    <div class="container">
+        <div class="head">
+            <h2>Our Services</h2>
+            <span>......</span>
+            <p>With every customer, LEGEND TARVELS searches hundreds of travel sites to show travellers the information they need to find the right flights, hotels, car hire, and holiday deals.Best price guaranteed.find a lower price, We will refund you with 200% of the difference.24*7 Spport.We are always here for you -reach us 24 hours a day</p>
+
+        </div>
+
+
+
+    </div>
+   
+    <div class="row text-centre">
+         <!--This huge numbe rof code is replaced by ngFor and arrayof inputs-->   
+        <!--<div class="col-lg-3 col-sm-4 col-xs-12 " id="card1" data-aos="fade-up" style="height:250px;margin-top:50px;">
+            <div class="service">
+                <div class="icons">
+                    <fa-icon  [icon]="faTrain"></fa-icon>
+                </div>
+                <h4>{{one.title}}</h4>
+                <p>{{one.description}}</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-xs-12 " id="card2" data-aos="fade-up" style="height:250px;margin-top:50px;">
+            <div class="service">
+                <div class="icons">
+                    <fa-icon  [icon]="faTrain"></fa-icon>
+                </div>
+                <h4>{{two.title}}</h4>
+                <p>{{two.description}}</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-xs-12 " id="card2" data-aos="fade-up" style="height:250px;margin-right:30px;margin-top:50px;">
+            <div class="service">
+                <div class="icons">
+                    <fa-icon  [icon]="faTicketAlt"></fa-icon>
+                </div>
+                <h4>{{three.title}}</h4>
+                <p> {{three.description}}         </p>
+            </div>
+        </div>
+       
+        
+                <div class="col-lg-3 col-sm-4 col-xs-12" id="card2" data-aos="fade-up"style="height:250px;margin-left:30px;margin-top:50px;">
+                    <div class="service">
+                        <div class="icons">
+                            <fa-icon  [icon]="faShip"></fa-icon>
+                        </div>
+                        <h4>{{four.title}}</h4>
+                        <p>{{four.description}}</p>
+                    </div>
+                </div>
+           
+        
+        <div class="col-lg-3 col-sm-4 col-xs-12 " id="card2" data-aos="fade-up" style="height:250px;margin-top:50px;">
+            <div class="service">
+                <div class="icons">
+                    <fa-icon  [icon]="faTrain"></fa-icon>
+                </div>
+                <h4>{{five.title}}</h4>
+                <p>{{five.description}}</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-4 col-xs-12 " id="card2" data-aos="fade-up" style="height:250px;margin-right:30px;margin-top:50px;">
+            <div class="service">
+                <div class="icons">
+                    <fa-icon  [icon]="faHome"></fa-icon>
+                </div>
+                <h4>{{six.title}}</h4>
+                <p>{{six.description}} </p>
+            </div>
+        </div>
+        -->
+                   <!--for click event.....(click)="ondata()"-->
+         <!--for custom event.........--> 
+        </div>
+         <div class="contains">
+        <app-gallery 
+                    *ngFor="let datas of list;" (clickEvent)="onClick($event)" [data]="datas"
+                    ></app-gallery>
+         
+         
+         <!--normally we use it like this but when ngFor is used no need of this"
+        <app-gallery (clickEvent)="onClick($event)" [data]="two"></app-gallery>
+        <app-gallery (clickEvent)="onClick($event)" [data]="three"></app-gallery>-->
+    </div>
+
+</section>
+
+

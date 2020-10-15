@@ -1,0 +1,130 @@
+
+.container{
+    background-color:white;
+    height: 200px;
+
+}
+.head{
+    height: 70px;
+}
+.head h2{ 
+    padding-top:0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    
+    position: relative;
+    text-transform: capitalize;
+   
+    font-family: 'Roboto', sans-serif;
+}
+.head p{
+color: #727272;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 2px;
+
+}
+
+.head span{
+height: 50px;
+
+display: block;
+
+
+font-size:70px;
+
+
+position: relative;
+
+color:red;
+border-radius: 50%;
+padding-top:0px;
+text-align: center;
+    
+}
+.head h1{
+    color: red;
+    padding-top:0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    
+    position: relative;
+}
+    
+.service{
+    background: white none repeat scroll 0;
+    padding: 0 15px;
+    transition: all 0.4s ease 0s;
+    color: #727272;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+height: 230px;
+}   
+.service .icons{
+
+color:white;
+font-size: 29px;
+height: 80px;
+line-height: 80px;
+text-align: center;
+top: 0;
+transition: all 0.3s ease 0s;
+box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+background-color:#f9461d;;
+  border-radius: 50%;
+  border: 0px solid grey;
+  padding: 3px;
+
+width: 80px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.service h4{
+    letter-spacing: 0px;
+margin-top: 0px;
+font-family: 'Open Sans', sans-serif;
+color: #333;
+font-size: 18px;
+margin-bottom: 10px;
+text-transform: capitalize;
+font-weight: 600;
+text-align:center;
+}
+.service p{
+    color: #727272;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+
+#card1{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+}
+#card2{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+}
+.row{
+    justify-content: space-between;
+}
+.contains{
+    justify-content: space-between;
+    width: 100%;
+    height: 1000px;
+}
+   
+
+  
